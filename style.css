@@ -1,0 +1,41 @@
+/* Faiza Berrichi---exercices Sass
+date:08-03-2021*/
+h1 {
+  color: #732929;
+}
+
+h3 {
+  color: #181D26;
+}
+
+/* mixins*/
+body {
+  font-size: 20px;
+  font-family: Tahoma;
+  color: #181D26;
+}
+
+/*exercice numb3*/
+.partie1 li {
+  color: #48736B;
+  text-decoration: underline;
+}
+
+/*extend for exercice number 4*/
+.choix1, .choix2 {
+  background-color: #732929;
+  color: #D9CDBF;
+}
+
+.choix2 {
+  text-decoration: underline;
+}
+
+/*exercice number 5*/
+.corps1 p:nth-child(2):hover {
+  background-color: red;
+  color: white;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+/*# sourceMappingURL=style.css.map */
